@@ -1,0 +1,107 @@
+
+@media screen and (max-width: 1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+    }
+
+
+@media screen and (max-width: 1200px){
+
+
+
+section{
+    margin: 0 5%;
+}
+.section__pic-container{
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+}
+}
+
+@media screen and (max-width: 600px){
+    #contact{
+        height: 40vh;
+    }
+ 
+    .about-containers, .contact-info-upper-container, .btn-contanier{
+        flex-wrap: wrap;
+    }
+    .contact-info-upper-container{
+        flex-direction: initial;
+        gap: 1rem;
+    }
+    .contact-info-container{
+        margin: 0;
+    }
+    .contact-info-container p, .nav-links li a{
+        font-size: 1rem;
+    }
+    .experience-sub-title{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section__pic-container{
+        height: 46vw;
+        justify-content: center;
+    }
+    .section__text__p2{
+        font-size: 1.25rem;
+    }
+ 
+    .text-container{
+        text-align: justify;
+    }
+    .launch-time{
+        padding: 30px;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .launch-time span{
+        font-size: 40px;
+        padding: 10px;
+    }
+    .launch-time div{
+        flex-basis: 50px;
+        padding: 0; 
+    }
+    .launch-time span{
+        font-size: 1.2rem;
+    }
+    .section__text__name{
+        font-size: 2.2rem;
+    }
+    footer p{
+        padding: 20px;
+    }
+    #invitation p{
+        margin-top: 10px;
+    }
+    #invitation h2{
+        font-size: 2.2rem;
+    }
+    #meeting h2{
+        font-size: 2.2rem; 
+    }
+    #meeting p{
+        font-size: 20px; 
+    }
+    #meeting h3{
+        font-size: 2rem;
+        font-weight: normal; 
+    }
+    
+}
